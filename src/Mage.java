@@ -5,9 +5,9 @@ public class Mage extends GameCharacter {
 
     @Override
     public void attack(GameCharacter target) {
-        if (!this.isAlive() {
-            throw new IllegalStateExcpetion(
-                    getName + "is defeated and cannot attack."
+        if (!this.isAlive()) {
+            throw new IllegalStateException(
+                    getName() + "is defeated and cannot attack."
             );
         }
 

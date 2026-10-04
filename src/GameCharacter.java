@@ -9,11 +9,11 @@ public class GameCharacter {
         }
 
         if (health <= 0) {
-            throw new IllegalArgumentException("Starting health must be greater than zero.")
+            throw new IllegalArgumentException("Starting health must be greater than zero.");
         }
 
         if (attackPower <= 0) {
-            throw new IllegalArgumentExcpetion("Attack power must be greater than zero.");
+            throw new IllegalArgumentException("Attack power must be greater than zero.");
         }
 
         this.name = name;
@@ -56,7 +56,7 @@ public class GameCharacter {
             );
         }
 
-        System.out.Println(name + "attacks" + target.getName() + "!");
+        System.out.println(name + "attacks" + target.getName() + "!");
 
         target.takeDamage(attackPower);
     }

@@ -4,7 +4,7 @@ public class  Main {
 
         Warrior warrior = new Warrior("Thor", 100, 25);
         Mage mage = new Mage("Merlin", 80, 30);
-        Archer archer = new Arccher("Robin", 90, 20);
+        Archer archer = new Archer("Robin", 90, 20);
 
         System.out.println("\n--- Starting Information ---");
 
@@ -31,7 +31,7 @@ public class  Main {
         + mage.getHealth());
 
         System.out.println(archer.getName() + "health: "
-        +archer.getHealth);
+        +archer.getHealth());
 
         System.out.println("\n--- Testing Exceptions ---");
 
