@@ -145,5 +145,4 @@ Exception caught: Thor is already defeated and cannot be attacked.
 ```
 
 ## Author
-
-Created as a Java programming assignment demonstrating object-oriented programming and exception handling.
+Mikaela Fischer
